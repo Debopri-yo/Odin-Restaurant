@@ -1,24 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document Title</title>
-    <!-- Link to external CSS file (optional) -->
-    <!-- <link rel="stylesheet" href="style.css"> -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Stone Ramen</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rock+Salt&family=Nunito&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Nunito', sans-serif; /* Clean text for readability */
+      background-color: #f8f9f4;
+    }
+
+    header {
+      padding: 30px;
+      background-color: #222;
+    }
+
+    nav {
+      width: 100%;
+      text-align: center;
+      background-color: green;
+      padding: 10px 0;
+    }
+
+    nav button {
+      font-family: 'Rock Salt', cursive; /* Stone/rugged vibe */
+      font-size: 18px;
+      margin: 0 10px;
+      padding: 8px 16px;
+      border: none;
+      background: #fff;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    nav button:hover {
+      background: #ddd;
+    }
+
+    #content {
+      padding: 20px;
+      text-align: center;
+    }
+
+    #content img {
+      width: 80%;              /* make image big */
+      max-width: 1000px;       /* but not too huge */
+      border-radius: 15px;
+      margin: 30px auto;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+      display: block;
+    }
+
+    .menu-title {
+      font-family: 'Orbitron', sans-serif; /* Science vibe */
+      font-size: 28px;
+      margin-top: 30px;
+      text-align: center;
+      color: #333;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <button>HOME</button>
-            <button>ABOUT</button>
-            <button>CONTACT</button>
-        </nav>
-    </header>
-    <div id="content">
-        <!-- Main content goes here -->
-    </div>
-    <!-- Link to external JavaScript file (optional) -->
-    <!-- <script src="script.js"></script> -->
+  <header>
+    <nav>
+      <button>HOME</button>
+      <button>ABOUT</button>
+      <button>CONTACT</button>
+    </nav>
+  </header>
+
+  <div id="content">
+    <h2 class="menu-title">Kingdom of Science Special Ramen 🍜</h2>
+    <img src="https://a.storyblok.com/f/178900/640x360/4c935ce358/a3b6b29cd5255b180aa5a69e7be4e2491575931930_full.jpg/m/640x360" alt="Dr. Stone Ramen Stall">
+  </div>
 </body>
 </html>
