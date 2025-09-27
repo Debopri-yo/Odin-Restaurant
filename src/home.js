@@ -1,8 +1,5 @@
 import stonecooking from "./images/cooking.avif";
-import showingfood from "./images/showingfood.webp";
-import senkuwheat from "./images/senkuwheat.avif";
 import Ramenstall from "./images/Ramenstall.webp";
-import SenkuEating from "./images/SenkuEating.avif";
 import ganeneating from "./images/ganeneating.webp";
 import "./styles/home.css";
 

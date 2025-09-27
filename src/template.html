@@ -25,6 +25,10 @@
       text-align: center;
       background-color: green;
       padding: 10px 0;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin: 1rem 0;
     }
 
     nav button {
@@ -46,30 +50,13 @@
       padding: 20px;
       text-align: center;
     }
-
-    #content img {
-      width: 80%;              /* make image big */
-      max-width: 1000px;       /* but not too huge */
-      border-radius: 15px;
-      margin: 30px auto;
-      box-shadow: 0 6px 15px rgba(0,0,0,0.3);
-      display: block;
-    }
-
-    .menu-title {
-      font-family: 'Orbitron', sans-serif; /* Science vibe */
-      font-size: 28px;
-      margin-top: 30px;
-      text-align: center;
-      color: #333;
-    }
   </style>
 </head>
 <body>
   <header>
     <nav>
       <button id="home">HOME</button>
-      <button>MENU</button>
+      <button id="m3nu">MENU</button>
       <button>ABOUT</button>
     </nav>
   </header>
