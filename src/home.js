@@ -43,7 +43,6 @@ const imgGen = document.createElement("img");
 imgGen.src = ganeneating;
 imgGen.alt = "Gen Eating";
 
-// append in grid order
 homeDiv.appendChild(imgStall);
 homeDiv.appendChild(textSection);
 homeDiv.appendChild(imgCooking);

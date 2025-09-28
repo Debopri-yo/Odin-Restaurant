@@ -12,7 +12,7 @@ export default function loadMenu() {
     const menuDiv = document.createElement("div");
     menuDiv.id = "menu";
     const menuItems=[
-        { name: "Senku’s Ramen", description: "The legendary ramen that revived the village’s spirit.", Image: ramen },
+        { name: "Foxtail Millet Ramen", description: "The legendary ramen that revived the village’s spirit.", Image: ramen },
         { name: "Revival Cola", description: "Cola is science — fizzy and refreshing!", Image: revivalCola },
         { name: "Gen’s Spicy Cola", description:" It's Coca-Cola for adults?A cola with a kick, just like Gen himself.", Image: spicycola },
         { name: "Kohaku’s Piquant Cinderella", description: "Taste like a sparkling sunset!", Image:cinderella },

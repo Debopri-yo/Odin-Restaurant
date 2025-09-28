@@ -1,0 +1,54 @@
+
+#ab0ut {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+  background: #f5e6c4;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Cover Image */
+#ab0ut img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Paragraph text */
+#ab0ut p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #333;
+  margin: 20px 0;
+  padding: 0 10px;
+}
+
+/* Tagline */
+#ab0ut h2 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-top: 25px;
+  color: #007a3d; /* a greenish science vibe */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  #ab0ut {
+    padding: 15px;
+  }
+
+  #ab0ut p {
+    font-size: 1rem;
+  }
+
+  #ab0ut h2 {
+    font-size: 1.3rem;
+  }
+}
